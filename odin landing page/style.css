@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.headertop{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+.header{
+    color: white;
+    background-color: #1F2837;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.headerlogo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.title{
+    font-size: 28px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    max-width: 444px;
+}
+.titlesub{
+    font-size: 18px;
+    color:#e5e7eb;
+    max-width: 444px;
+}
+.headerbody{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+img{
+    max-height: 200px;
+    margin-left: 44px;
+
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+    margin: 50px;
+}
+.boxes{
+    color:#1f2937;
+    font-size: 18px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    
+}
+.square{
+    width: 100px;
+    height: 100px;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+.section2{
+     margin:50px ;
+     text-align: center;
+     
+
+
+}
+.box{
+    width: 150px;
+}
+.section3{
+    background-color: #e5e7eb;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.quote{
+   font-style: italic; 
+   font-size: 36px;
+}
+.quoteauthor{
+    color: #1f2937;
+    font-weight: bold;
+    align-self: flex-end;
+}
+.callaction{
+    background-color: blue;
+    border-radius: 5px;
+    
+    color:white;
+    display: flex;
+    padding: 33px;
+    justify-content: space-around;
+}
+.section4{
+    padding: 55px88px
+}
+.callactionbutton{
+    background-color: red;
+    color: white;
+    padding:  5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
